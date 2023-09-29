@@ -38,8 +38,6 @@ CameraFeedVita::CameraFeedVita() {
 	// position = CameraFeed::FEED_UNSPECIFIED;
 
 	img_data = malloc((320 * 240) * 3);
-	u_data = malloc((320 * 240) * 3);
-	v_data = malloc((320 * 240) * 3);
 
 	cam_info.size = sizeof(SceCameraInfo);
 	cam_info.format = SCE_CAMERA_FORMAT_ARGB;
